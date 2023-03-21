@@ -22,7 +22,7 @@ console.log(parOuImpar(6));
 
 //--------------- Exercicio D
 function descontoSalario(salario){
-    let desconto = salario * 0.01;
+    let desconto = salario * 0.1;
     let salarioLiquido = salario - desconto;
     return `O salário líquido é ${salarioLiquido}`;
 }

@@ -17,7 +17,7 @@ const dividir = (number1, number2) =>{
     return `A divisão dos dois números é ${divisao}`;
 }
 
-//--------------- Exercicio A
+//--------------- Exercicio C,D
 let receberNumero1 = Number(prompt("Escreva um números"));
 let receberNumero2 = Number(prompt("Escreva outro números"));
 

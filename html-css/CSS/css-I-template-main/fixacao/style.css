@@ -1,0 +1,49 @@
+/* Define o tamanho, preenchimento e cor do texto para o cabeçalho e rodapé
+Para não repetir as configurações, pode utilizar a , juntando dois ou mais nomes */
+header, footer{
+    height: 40px;
+    padding: 10px;
+    color: white;
+}
+
+/* Define o fundo, borda inferior e cor do texto para o cabeçalho */
+header{
+    background-color: orange;
+    border-bottom: 1px solid black; /* Adiciona uma borda inferior de 1px sólida em preto */
+}
+
+/* Define o fundo, altura e cor do texto para o rodapé */
+footer{
+    background-color: black;
+    height: 40px;
+}
+
+/* Define as margens, preenchimento, largura e altura do corpo principal da página */
+main{
+    margin: 15px;
+    padding: 20px 30px;
+    width: 90vw; /* Define a largura do elemento principal para 90% da largura da viewport */
+    height: 80vh; /* Define a altura do elemento principal para 80% da altura da viewport */
+}
+
+/* Define as margens para os artigos */
+article{
+    margin: 25px 0;
+}
+
+/* Define a fonte para os títulos dos artigos */
+h2{
+    font-family: Arial, sans-serif;
+}
+
+/* Define a fonte para o conteúdo dos artigos */
+p{
+    font-family: Helvetica, sans-serif;
+}
+
+/* Define a cor laranja para a classe "destaque"
+Lembre se que classe é . , id é # */
+.destaque{
+    color: orange;
+}
+

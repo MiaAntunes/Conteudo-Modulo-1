@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header ,footer{
+    align-items: center;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    padding: 8px;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 20px;
+}
+
+main{
+    flex-grow: 1;
+}
+
+section{
+    display: flex;
+    flex-grow: 1;
+}
+
+section> article:nth-child(2){
+    width: 200vw;
+    height: 70vh;
+    background-color: red;
+}
+
